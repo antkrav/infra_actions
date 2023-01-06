@@ -12,7 +12,7 @@ jobs:
     # Запуск actions checkout — готового скрипта 
     # для клонирования репозитория
     - uses: actions/checkout@v3
-    - name: Set up Python
+    - name: Set Python
       # Запуск actions setup-python — готового скрипта 
       # для развёртывания окружения Python
       uses: actions/setup-python@v3
